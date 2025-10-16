@@ -13,3 +13,8 @@ def choose_action():
 def choose_file():
     file = input("Enter the name of the text file (.txt):")
     return file
+
+print("=== Program for working with the Caesar cipher ===")
+folder = get_folder_path()
+file_name = choose_file()
+action = choose_action()
