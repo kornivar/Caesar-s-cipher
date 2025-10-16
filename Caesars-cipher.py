@@ -18,3 +18,8 @@ print("=== Program for working with the Caesar cipher ===")
 folder = get_folder_path()
 file_name = choose_file()
 action = choose_action()
+
+if action == "1":
+    print(f"File '{file_name}' will be encrypted.")
+elif action == "2":
+    print(f"File '{file_name}' will be decrypted.")
