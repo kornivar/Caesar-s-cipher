@@ -23,3 +23,12 @@ if action == "1":
     print(f"File '{file_name}' will be encrypted.")
 elif action == "2":
     print(f"File '{file_name}' will be decrypted.")
+
+
+if action == "3":
+    next_folder = input("Enter the name of the next folder you want to navigate to: ")
+    print(f"Go to folder '{next_folder}' completed.")
+
+elif action == "4":
+    prev_folder = input("Enter the name of the previous folder you want to return to.: ")
+    print(f"Return to folder '{prev_folder}' completed.")
