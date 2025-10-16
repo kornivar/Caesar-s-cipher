@@ -9,3 +9,7 @@ def choose_action():
             return action
         else:
             print("Enter 1 or 2.")
+
+def choose_file():
+    file = input("Enter the name of the text file (.txt):")
+    return file
